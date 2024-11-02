@@ -1,0 +1,15 @@
+{
+    "name": "GeoLocale",
+    "alias": "geolocale",
+    "core": true,
+    "version": "1.0",
+    "description": "",
+    "keywords": [],
+    "priority": 18,
+    "providers": [
+        "Modules\\GeoLocale\\Providers\\GeoLocaleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

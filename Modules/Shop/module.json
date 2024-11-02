@@ -1,0 +1,13 @@
+{
+    "name": "Shop",
+    "alias": "shop",
+    "core": true,
+    "version": "1.0",
+    "description": "",
+    "keywords": [],
+    "priority": 15,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

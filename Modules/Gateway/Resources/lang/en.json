@@ -1,0 +1,16 @@
+{
+    ":name payment gateway module not found.": ":name payment gateway module not found.",
+    "Already paid for the order.": "Already paid for the order.",
+    "Payment method not found.": "Payment method not found.",
+    "Payment method not available.": "Payment method not available.",
+    "Module": "Module",
+    "Gateway": "Gateway",
+    "Amount:": "Amount:",
+    "Currency:": "Currency:",
+    "Return": "Return",
+    "Submit": "Submit",
+    "Choose payment method below": "Choose payment method below",
+    "Pay with :name": "Pay with :name",
+    "No payment gateways found.": "No payment gateways found.",
+    "Purchase data not found.": "Purchase data not found."
+}

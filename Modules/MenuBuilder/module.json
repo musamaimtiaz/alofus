@@ -1,0 +1,13 @@
+{
+    "name": "MenuBuilder",
+    "alias": "menubuilder",
+    "core": true,
+    "version": "1.0",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,19 @@
+{
+    "Settings": "সেটিংস",
+    "Stripe Documentation": "স্ট্রাইপ ডকুমেন্টেশন",
+    "Publishable Key": "প্রকাশযোগ্য কী",
+    "Client Secret": "ক্লায়েন্ট সিক্রেট",
+    "Please specify sandbox enabled/disabled.": "অনুগ্রহ করে স্যান্ডবক্স সক্রিয়/অক্ষম উল্লেখ করুন।",
+    "Client Secret Key": "ক্লায়েন্ট সিক্রেট কী",
+    "Instruction": "নির্দেশ",
+    "Sandbox": "স্যান্ডবক্স",
+    "Status": "স্থিতি",
+    "Stripe settings updated.": "স্ট্রাইপ সেটিংস আপডেট করা হয়েছে।",
+    "Error while trying to setup stripe.": "স্ট্রাইপ সেটআপ করার চেষ্টা করার সময় ত্রুটি৷",
+    "Payment Request failed due to some issues. Please try again later.": "কিছু সমস্যার কারণে অর্থপ্রদানের অনুরোধ ব্যর্থ হয়েছে৷ অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন.",
+    "Payment Request failed due to credentials mismatch.": "শংসাপত্রের অমিলের কারণে অর্থপ্রদানের অনুরোধ ব্যর্থ হয়েছে৷",
+    "Paying with Stripe": "স্ট্রাইপ দিয়ে অর্থ প্রদান",
+    "Credit or debit card": "ক্রেডিট বা ডেবিট কার্ড",
+    "Pay With Stripe": "স্ট্রিপ দিয়ে পে",
+    "Purchase data not found.": "ক্রয় তথ্য পাওয়া যায়নি."
+}

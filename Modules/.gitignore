@@ -1,0 +1,33 @@
+# Ignore all files and folders
+# *
+/*
+
+# Allow specific files and folders
+!.gitignore
+!index.php
+!modules.json
+!Addons/
+!Blog/
+!CashOnDelivery/
+!CMS/
+!Commission/
+!Coupon/
+!FormBuilder/
+!Gateway/
+!GeoLocale/
+!MediaManager/
+!MenuBuilder/
+!Newsletter/
+!PageBuilder/
+!Paypal/
+!Popup/
+!Recaptcha/
+!Refund/
+!Report/
+!Shipping/
+!Shop/
+!Stripe/
+!Tax/
+!Ticket/
+!Upgrader/
+!BulkPayment/

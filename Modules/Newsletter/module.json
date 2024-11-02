@@ -1,0 +1,12 @@
+{
+    "name": "Newsletter",
+    "alias": "newsletter",
+    "core": true,
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

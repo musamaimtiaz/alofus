@@ -1,0 +1,14 @@
+.refund-image {
+    position: relative;
+}
+.refund-image span {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 7px;
+    display: inline-block;
+    border: 3px solid rgb(252, 67, 67);
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.2)
+}

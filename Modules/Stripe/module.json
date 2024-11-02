@@ -1,0 +1,13 @@
+{
+    "name": "Stripe",
+    "alias": "stripe",
+    "version": "1.0",
+    "gateway": true,
+    "description": "",
+    "keywords": [],
+    "priority": 16,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

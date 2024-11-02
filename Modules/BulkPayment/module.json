@@ -1,0 +1,14 @@
+{
+    "name": "BulkPayment",
+    "alias": "bulkpayment",
+    "core": true,
+    "version": "1.0",
+    "martvill_version" : "2.2.0",
+    "description": "",
+    "keywords": [],
+    "priority": 70,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Report",
+    "core": true,
+    "alias": "report",
+    "description": "",
+    "keywords": [],
+    "priority": 50,
+    "providers": [
+        "Modules\\Report\\Providers\\ReportServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

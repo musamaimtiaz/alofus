@@ -1,0 +1,5 @@
+@extends('errors::minimal-layout')
+@section('title', '500 Server Error')
+@section('code', '500')
+@section('name', 'Server Error')
+@section('message', __('An error occurred processing your requests.'))

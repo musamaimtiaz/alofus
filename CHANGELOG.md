@@ -1,0 +1,124 @@
+## [0.1.1] - 2023-01-25
+
+- [feat] Added estimate delivery in order details table
+- [refactor][fix] Fixed namesapace in authorize net payment gateway route.
+- [fix] Vendor Report Customer Order Issue
+- [fix] Language translations admin panel
+- [refactor] Refactor compound tax calculation
+- [refactor] Refactored vendor transacton data table.
+- [refactor] Removed vendor navigation in transaction table for vendor panel.
+- [refactor] Rename items to products
+- [refactor] Dynamic company name in invoice print file.
+- [refactor] Removed order details title section.
+- [refactor] Dynamic order invoice pdf data in vendor panel.
+- [fix] Batch delete issue in admin panel
+- [refactor] Dynamiced order invoice pdf data in admin panel.
+- [fix] Random Issue
+- [fix] Form builder translation admin panel
+- [refactor] Dynamic order invoice pdf data.
+- [fix] Vendor Report Issue #861m5fdmu
+- [refactor] DataTable export button translation
+- [fix] Language translations admin panel
+- [refactor][fix] Added error pages title.
+- [fix] border adding in the table
+- [refactor][fix] fix the design issues due to language changing and also fix the border issues in the help table
+- [refactor][fix] Fixed transaction datatable navigation issue.
+- [fix] Random issues
+- [fix] change the radio button color
+- [refactor][fix] fixing the form design in the address index
+- [refactor][feat] Implemented credentials encrypt in payment gateway.
+- [refactor][feat] Implemented recaptch credentials encrypt.
+- [refactor] Implemented demo middleware credentials store route.
+- [fix] Admin Report Calculation #861m54247
+- [refactor][fix] change the default color of the date range picker button
+- [fix] Compare product show issue if product is deleted 
+- [fix] Fix compare group product price issue 
+- [feat] Show full name of product when hover
+- [refactoor] Rearrange the composer.json file for authorize net.
+- [refactor][fix] design fixing of pdf invoice
+- [fix] Translation under admin products menu
+- [refactor] change the logo of the martvill
+- [refactor][fix][style] pdf invoice redesign
+- [refactor]  Changed thumbnail image.
+- [feat] Added changelog file
+- [refactor][fix] Changed product breadcrumb route name in vendor panel.
+- [fix] Translation under admin products menu
+- [refactor] Removed unnecessary files from authorize net.
+- [refactor] Change product slider images
+- [refactor] Removed tests directory from authorize net.
+- [refactor] Removed the providers directory from authorize net.
+- [refactor] Organized the composer.json file in authorizeNet.
+- [refactor] Updated preference seeder for signup status setting.
+- [fix] Random issue after install project
+- [refactor][feat] Implemented vendor default signup  status setting.
+- [refactor] remove provider and change thumbnail for COD, CP, DBT
+- [refactor][feat] Implemented user signup default status setting.
+- [fix] adding the font family in the admin panel
+- [fix] Translation under admin personal menu
+- [refactor][feat] Added signup default setting in account setting section.
+- [refactor][style][fix] redesign the invoice pdf format
+- [refactor] offline payment & payment renamed functions
+- [refactor] Changed documentation in authorizeNet, authorizeNetBody and authorizeNetController.
+- [refactor]  Added authorize net gateway credential in gateway seeder.
+- [refactor] Added authorize net documentation link in authorize config.
+- [refactor] Minor changes
+- [refactor] Refactored pay blade code in authorize net module.
+- [refactor] Discarded changes of the file
+- [refactor] Discarded changes of the file
+- [fix] Added byte conversion methods
+- [refactor] Added input field name.
+- [refactor] Added command in authorizeNetProcessor file.
+- [refactor] Added command in authorizeNetResponse file.
+- [refactor] offLinePayments restored
+- [refactor] offile payment module & functionality
+- [fix] minified the file properly
+- [refactor] Changed authorized net processor class code.
+- [refactor] Changed pay blade file design in authorize net.
+- [refactor] Updated demo notification message.
+- [refactor]  Changed condition for demo notification message.
+- [refactor] Modify max file size message
+- [refactor] Fixed mobile app payment link
+- [fix] Random Issue
+- [refactor] offline payment renamed 
+- [feat] Added note in seeder for offline payment
+- [refactor] Updated demo notification in vendor panel.
+- [refactor] Added demo notification in vendor panel.
+- [refactor][fix]solving design issues in the admin panel
+- [refactor] Added demo notification in admin panel.
+- [refactor] Updated translation strings
+- [fix] Dummy template layout & form table seed issue
+- [refactor] Swapped svg to font awesome icons
+- [feat] Added reset dummy data in every four hour command
+- [refactor] Change homepage sidebar image
+- [fix] Translation under admin personal menu
+- [refactor] Refactor authorizen net response code.
+- [refactor][feat] Created a response class for authorize net payment response.
+- [refactor][feat] Created authorize net payment client site page.
+- [refactor][feat] Created AuthorizenetProcessor class for data process.
+- [refactor] Locale dashboard admin panel
+- [refactor] Made file system permissions dynamic
+- [refactor] Removed bootstrap accordion
+- [refactor] Used existing PhpInfo class
+- [refactor][fix] image design issues fixing in the customer dashboard
+- [fix] Chat module issue #861m5yqy9
+- [feat] Added author
+- [feat] System information
+- [feat] Added check payment method 
+- [feat] Added direct bank transfer method 
+- [feat] Added check payment & bank transfer payment data in seeder
+- [refactor] Removed unnecessary blade files.
+- [refactor][feat] Added authorize net logo.
+- [refactor][feat] Added authorize net payment credential setting functionality.
+- [refactor] Refactor authorizeNetBody model code.
+- [refactor][feat] Created authorize net request.
+- [refactor][feat] Created a authorizenetbody model for authorizenet.
+- [refactor][feat] Created a model AuthorizeNet.
+- [refactor][feat] Created a global scope for authorize net payment gateway.
+- [refactor][feat] Installed autorizenet package.
+- [refactor][feat] Created a module for authorize net payment gateway.
+- [fix] Locale dashboard admin panel
+
+## [0.1.0] - 2023-01-09
+
+- Initial released
+

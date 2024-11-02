@@ -1,0 +1,15 @@
+{
+    "Settings": "সেটিংস",
+    "PayPal Documentation": "পেপ্যাল ডকুমেন্টেশন",
+    "Client Secret Key": "ক্লায়েন্ট সিক্রেট কী",
+    "Client Id": "ক্লায়েন্ট আইডি",
+    "Instruction": "নির্দেশ",
+    "Sandbox": "স্যান্ডবক্স",
+    "Status": "স্থিতি",
+    "Paypal settings updated.": "পেপাল সেটিংস আপডেট করা হয়েছে।",
+    "Payment Failed.": "পেমেন্ট ব্যর্থ হয়েছে.",
+    "Payment cancelled from paypal.": "পেপ্যাল থেকে পেমেন্ট বাতিল করা হয়েছে।",
+    "Paying with Paypal": "পেপ্যাল দিয়ে অর্থ প্রদান",
+    "Pay With Paypal": "পেপালের মাধ্যমে প্রদান করুন",
+    "Purchase data not found.": "ক্রয় তথ্য পাওয়া যায়নি."
+}

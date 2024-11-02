@@ -1,0 +1,24 @@
+{
+    "name": "TechVillage/newsletter-module",
+    "type": "laravel-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Al Mamun",
+            "email": "almamun.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Newsletter\\": ""
+        }
+    }
+}

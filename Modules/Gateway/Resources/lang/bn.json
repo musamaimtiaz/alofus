@@ -1,0 +1,16 @@
+{
+    ":name payment gateway module not found.": ":নাম পেমেন্ট গেটওয়ে মডিউল পাওয়া যায়নি।",
+    "Already paid for the order.": "ইতিমধ্যে অর্ডারের জন্য অর্থ প্রদান করা হয়েছে।",
+    "Payment method not found.": "পেমেন্ট পদ্ধতি পাওয়া যায়নি.",
+    "Payment method not available.": "পেমেন্ট পদ্ধতি উপলব্ধ নেই.",
+    "Module": "মডিউল",
+    "Gateway": "প্রবেশপথ",
+    "Amount:": "পরিমাণ:",
+    "Currency:": "মুদ্রা:",
+    "Return": "ফিরুন",
+    "Submit": "জমা দিন",
+    "Choose payment method below": "নীচের অর্থপ্রদান পদ্ধতি চয়ন করুন",
+    "Pay with :name": "নাম দিয়ে অর্থ প্রদান করুন",
+    "No payment gateways found.": "কোন পেমেন্ট গেটওয়ে পাওয়া যায়নি.",
+    "Purchase data not found.": "ক্রয় তথ্য পাওয়া যায়নি."
+}

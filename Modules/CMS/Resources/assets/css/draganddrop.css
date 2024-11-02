@@ -1,0 +1,196 @@
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#sortable .ui-state-default {
+    margin: 0 3px 20px 3px;
+    padding: 0 0.4em;
+    font-size: 1rem;
+    height: auto !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 16px -15px #1de9b6;
+    border: 1px solid #969696;
+    background: white;
+}
+
+.form-control {
+    border-color: #9e9d9d;
+}
+
+li.ui-state-default::before {
+    content: "";
+    height: 100%;
+    width: 3px;
+    background: #fcca19;
+    position: absolute;
+    left: -2px;
+}
+
+.dd-content {
+    flex-grow: 1;
+    background: transparent !important;
+    margin: 0;
+    box-shadow: none;
+    padding-top: 10px;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    transition: 0.3s all;
+}
+
+.component-header {
+    display: flex;
+    justify-content: stretch;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-text {
+    display: flex;
+    font-size: 16px;
+    flex-grow: 1;
+    margin: 0;
+    padding: 10px 0;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+}
+@media only screen and (min-width:280px) and (max-width:768px){
+    .header-text{
+        display: flow-root;
+    }
+}
+.header-text * {
+    margin: 0;
+}
+
+.header-title {
+    color: black;
+    font-size: inherit;
+}
+
+.card-hide {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+}
+.header-btns {
+    display: flex;
+    gap: 5px;
+}
+
+.delete-button:hover {
+    border-color: #f44236 !important;
+}
+
+.delete-button:hover i {
+    color: #f44236;
+}
+
+.header-btns .header-btn {
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.6rem;
+    width: 1.6rem;
+    font-size: 1.1rem;
+}
+
+.header-btn {
+    cursor: pointer;
+}
+
+.hw-1-8rem {
+    height: 1.8rem !important;
+    width: 1.8rem !important;
+}
+
+.folding i {
+    transition: 0.3s all;
+}
+
+.closed .feather {
+    transform: rotate(-180deg);
+}
+
+.curson-pointer {
+    cursor: pointer;
+}
+
+.border1px {
+    border-width: 1px;
+}
+
+.img-delete-icon {
+    right: -5px;
+    top: -6px;
+    color: #e56f0e;
+    background-color: #eaeaea;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.accordion .card {
+    border: 1px solid #c1bfbf !important;
+    box-shadow: none;
+}
+
+.selectable {
+    cursor: pointer;
+    transition: all 0.1s ease;
+    border: 2px solid #fff;
+}
+
+.selectable:hover,
+.selectedBox {
+    border: 2px solid #acacac;
+}
+
+img.card-img-top {
+    object-fit: contain;
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.right--50p {
+    right: -50px !important;
+}
+
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 1140px;
+    }
+}
+
+
+.header-btns-lg .header-btn {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px;
+}
+
+.header-btns-lg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.header-btn.delete-button {
+    font-weight: 600;
+    color: #2c2c2c;
+}

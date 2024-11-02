@@ -1,0 +1,45 @@
+@media only screen and (max-width:768px) and (min-width:280px){
+    #hwpwrap #menu-management-liquid{
+        width: 100%;
+    }
+    .drag-instructions p{
+        word-break:break-all;
+        width: 100%;
+    }
+    #hwpwrap .menu-item-bar{
+        width: 100%;
+    }
+    #hwpwrap .menu-item-bar .menu-item-handle{
+        width: 100%;
+    }
+    #hwpwrap #post-body-content{
+        width: 100%;
+        min-width: 100%;
+    }
+    #hwpwrap .menu-item-handle .item-title {
+        margin-right: 0px;
+    }
+    label{
+        display: block;
+        margin-bottom: 0px;
+    }
+    #hwpwrap .menu-item-settings{
+        width: 100%;
+    }
+    .customlinkDropdown{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .is-submenu{
+        padding-right: 40px;
+    }
+
+    .display-list-item {
+        display: list-item !important;
+    }
+
+    .color-transparent {
+        color: transparent !important;
+    }
+}

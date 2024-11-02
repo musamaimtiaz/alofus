@@ -1,0 +1,210 @@
+.nav-list li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: unset;
+    color: #141313;
+}
+
+.arrow-icon {
+    right: 0;
+    margin-top: 5px;
+    padding-right: 7px;
+}
+.nav-list li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: unset;
+    color: #141313;
+}
+.nav-list > li > a {
+    color: #0e0d0d;
+    font-size: 14px;
+    padding-left: 13px !important;
+    border-bottom: unset;
+}
+div#topNav-v-pills-tabContent {
+    box-shadow: unset !important;
+}
+
+div#topNav-v-pills-tabContent {
+    padding: 0px 30px !important;
+}
+
+.-mt-6 {
+    margin-top: -6px;
+}
+
+.-mt-8 {
+    margin-top: -8px;
+}
+
+.border-form-control {
+    border: 1px solid #9e9d9d;
+}
+
+.spinner-border {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
+    border: 2px solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spinner-border 0.75s linear infinite;
+    animation-delay: 0s;
+}
+
+.spinner-border-sm {
+    width: 15px;
+    height: 15px;
+    border-width: 2px;
+}
+
+.footer-main .ui-state-default:last-child {
+    margin-bottom: 0 !important;
+}
+.ui-state-custom {
+    margin: 0 3px 20px 3px;
+    padding: 0 0.4em;
+    font-size: 1rem;
+    height: auto !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 16px -15px #1de9b6;
+    border: 1px solid #969696;
+    background: white;
+}
+
+.ui-state-custom::before {
+    content: "";
+    height: 100%;
+    width: 3px;
+    background: #fcca19;
+    position: absolute;
+    left: -2px;
+}
+
+#appearance-layout {
+    width: 170px;
+    margin-right: -25px;
+    border: 1px solid #ddd;
+}
+
+.appearance-loader {
+    width: 25px;
+    height: 25px;
+    border-width: 3px;
+}
+
+.bg-light-gray {
+    background: #eeeeee88 !important;
+}
+.noti-alert.message {
+    padding: 5px 0 5px 15px;
+}
+
+.appearance-dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 200px;
+    padding: 0 37px 0 15px;
+    margin-right: -40px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 1);
+    text-align: right;
+    line-height: 45px;
+    color: #444;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.appearance-dropdown.enable {
+    cursor: pointer;
+}
+
+.appearance-dropdown.enable::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+
+    margin-top: -2px;
+    width: 0;
+    height: 0;
+
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #a0a0a0 transparent;
+}
+
+.appearance-dropdown.enable.active::before {
+    border-width: 0 6px 6px 6px;
+}
+
+.appearance-dropdown .dropdown {
+    position: absolute;
+    right: 15px;
+    left: 0;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: inherit;
+    box-shadow: inherit;
+    background: inherit;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0;
+    visibility: hidden;
+    border: 1px solid #ddd;
+}
+
+.appearance-dropdown .dropdown li {
+    padding: 0 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.appearance-dropdown .dropdown li:last-child {
+    border-bottom: none;
+}
+
+.appearance-dropdown .dropdown li:hover {
+    background: #fbd13a;
+}
+
+.appearance-dropdown.active .dropdown {
+    opacity: 1;
+    visibility: visible;
+
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}

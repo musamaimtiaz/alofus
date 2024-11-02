@@ -1,0 +1,69 @@
+.geolocale-table {
+    height: 70vh;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+/* Tooltip */
+.tooltip .tooltip-text {
+    visibility: hidden;
+    text-align: center;
+    padding: 2px 6px;
+    position: absolute;
+    z-index: 100;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+table thead {
+    background: unset;
+    border-radius: unset;
+    color: unset;
+}
+table td {
+    border-left: unset !important;
+    border-right: unset !important;
+}
+.arrow-circle-right, .edit, .delete {
+    height: 20px;
+    width: 20px;
+    color: #483e3ed6!important;
+
+}
+
+.add, .edit, .delete {
+    cursor: pointer;
+}
+
+.action-button {
+    opacity: 0;
+    transition: 0.2s ease;
+}
+
+table tr:hover {
+    background: #ddd !important;
+}
+table tr:hover .action-button {
+    opacity: 1;
+}
+
+.header h6 {
+    padding: 12px 0 !important;
+    background: #49473e;
+    color: #ffffff !important;
+    border-left: 4px solid #f8c30c;
+    border-right: unset;
+}
+td.search {
+    border-bottom: 1px solid #e4e4e4cf;
+}
+
+.add-city, .add-state {
+    display: none;
+}
+
+.pt-160 {
+    padding-top: 160px !important;
+}

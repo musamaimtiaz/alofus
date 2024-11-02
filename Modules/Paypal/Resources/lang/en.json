@@ -1,0 +1,15 @@
+{
+    "Settings": "Settings",
+    "PayPal Documentation": "PayPal Documentation",
+    "Client Secret Key": "Client Secret Key",
+    "Client Id": "Client Id",
+    "Instruction": "Instruction",
+    "Sandbox": "Sandbox",
+    "Status": "Status",
+    "Paypal settings updated.": "Paypal settings updated.",
+    "Payment Failed.": "Payment Failed.",
+    "Payment cancelled from paypal.": "Payment cancelled from paypal.",
+    "Paying with Paypal": "Paying with Paypal",
+    "Pay With Paypal": "Pay With Paypal",
+    "Purchase data not found.": "Purchase data not found."
+}

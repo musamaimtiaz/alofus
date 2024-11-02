@@ -1,0 +1,24 @@
+/* hide export options */
+.user_activity_list #dataTableBuilder_wrapper .btn-group > .btn-group {
+    display: none !important;
+}
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+ 
+    .user_activity_list
+    .table-responsive
+    .dataTables_wrapper
+    .dataTables_filter
+    input {
+    width: 296px !important;
+}
+    .user_activity_list #dataTableBuilder_length,
+    #dataTableBuilder_filter {
+        width: auto;
+    }
+}
+@media only screen and (min-width: 442px) and (max-width: 1024px) {
+  .user_activity_list #dataTableBuilder_length,
+    #dataTableBuilder_filter {
+        width: auto;
+    }
+}

@@ -1,0 +1,91 @@
+/* tajawal-200 - latin_arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 200;
+  src: url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-200.eot'); /* IE9 Compat Modes */
+  src: local('Tajawal ExtraLight'), local('Tajawal-ExtraLight'),
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-200.woff') format('woff'), /* Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-200.svg#Tajawal') format('svg'); /* Legacy iOS */
+}
+/* tajawal-regular - latin_arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  src: url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-regular.eot'); /* IE9 Compat Modes */
+  src: local('Tajawal'), local('Tajawal-Regular'),
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-regular.woff') format('woff'), /* Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-regular.svg#Tajawal') format('svg'); /* Legacy iOS */
+}
+/* tajawal-300 - latin_arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 300;
+  src: url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-300.eot'); /* IE9 Compat Modes */
+  src: local('Tajawal Light'), local('Tajawal-Light'),
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-300.woff') format('woff'), /* Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-300.svg#Tajawal') format('svg'); /* Legacy iOS */
+}
+/* tajawal-500 - latin_arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500;
+  src: url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-500.eot'); /* IE9 Compat Modes */
+  src: local('Tajawal Medium'), local('Tajawal-Medium'),
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-500.woff') format('woff'), /* Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-500.svg#Tajawal') format('svg'); /* Legacy iOS */
+}
+/* tajawal-700 - latin_arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  src: url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-700.eot'); /* IE9 Compat Modes */
+  src: local('Tajawal Bold'), local('Tajawal-Bold'),
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-700.woff') format('woff'), /* Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-700.svg#Tajawal') format('svg'); /* Legacy iOS */
+}
+/* tajawal-800 - latin_arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 800;
+  src: url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-800.eot'); /* IE9 Compat Modes */
+  src: local('Tajawal ExtraBold'), local('Tajawal-ExtraBold'),
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-800.woff') format('woff'), /* Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-800.svg#Tajawal') format('svg'); /* Legacy iOS */
+}
+/* tajawal-900 - latin_arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 900;
+  src: url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-900.eot'); /* IE9 Compat Modes */
+  src: local('Tajawal Black'), local('Tajawal-Black'),
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-900.woff') format('woff'), /* Modern Browsers */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('tajawal-v3-latin_arabic/tajawal-v3-latin_arabic-900.svg#Tajawal') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,17 @@
+{
+    "name": "CMS",
+    "alias": "cms",
+    "core": true,
+    "version": "1.0",
+    "description": "",
+    "keywords": [],
+    "priority": 3,
+    "providers": [
+        "Modules\\CMS\\Providers\\CMSServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Http/helper.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,64 @@
+.fb-editor {
+    background-image: #f2f2f2;
+}
+.five {
+    width: 5% !important;
+}
+.ten {
+    width: 10% !important;
+}
+.fifteen {
+    width: 15% !important;
+}
+.twenty {
+    width: 20% !important;
+}
+.twenty-five {
+    width: 25% !important;
+}
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.parsley-errors-list {
+    list-style: none;
+    padding: 5px 0;
+    color: #c62323;
+}
+
+.form-group.access-wrap {
+    display: none !important;
+}
+
+.rendered-form input {
+    display: initial !important;
+}
+
+.radio-inline, .checkbox-inline{
+    display: inline-block;
+}
+
+.radio-inline:not(:first-child) , .checkbox-inline:not(:first-child){
+    margin-left: 10px !important;
+}
+
+.rendered-form #nid_image, #nid, #email,.rendered-form #name, #tax_id, #trade_license {
+    height: 41px !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 29px;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+.form-wrap.form-builder .form-control {
+    height: 41px !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 9px 16px !important;
+    font-size: 14px;
+    line-height: 29px;
+    border-radius: 4px;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Paypal",
+    "alias": "paypal",
+    "version": "1.0",
+    "gateway": true,
+    "description": "Whether you’re building an online, mobile or in-person payment solution, you’ll find the resources you need to test and go live with PayPal.",
+    "keywords": [],
+    "priority": 10,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

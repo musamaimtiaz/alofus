@@ -1,0 +1,13 @@
+{
+    "name": "Recaptcha",
+    "alias": "recaptcha",
+    "version": "1.0",
+    "gateway": true,
+    "description": "The re-captcha only supported google re-captcha v2 credential.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

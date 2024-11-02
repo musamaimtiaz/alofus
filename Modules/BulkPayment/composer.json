@@ -1,0 +1,23 @@
+{
+    "name": "techvillage/bulkpayment",
+    "description": "",
+    "authors": [
+        {
+            "name": "TechVillage",
+            "email": "support@techvill.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BulkPayment\\": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Tax",
+    "alias": "tax",
+    "core": true,
+    "version": "1.0",
+    "description": "",
+    "keywords": [],
+    "priority": 19,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

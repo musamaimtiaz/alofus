@@ -1,0 +1,30 @@
+.dropdown-list{
+    right:7px; 
+    top:5px
+   }
+   .dropdown-icon{
+   cursor: pointer
+   }
+   .upload-img-size{
+    height:200px;
+   }
+   .img-type{
+     margin-bottom: 0 !important;
+   }
+   
+   .add-files-btn{
+     position: absolute;
+     right: 25px;
+     top: 11px
+   }
+.search-button{
+  height: 43px !important;
+}
+.no-file-message{
+  text-align: center;
+  color: #898989;
+  font-size: 22px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

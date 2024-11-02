@@ -1,0 +1,13 @@
+{
+    "name": "Shipping",
+    "alias": "shipping",
+    "core": true,
+    "version": "1.0",
+    "description": "",
+    "keywords": [],
+    "priority": 14,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

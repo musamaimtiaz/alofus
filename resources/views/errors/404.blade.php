@@ -1,0 +1,5 @@
+@extends('errors::minimal-layout')
+@section('title', '404 Not Found')
+@section('code', '404')
+@section('name', 'Error')
+@section('message', __('The page you are looking for is not available at the moment.'))

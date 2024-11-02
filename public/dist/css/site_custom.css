@@ -1,0 +1,390 @@
+label.error {
+    font-size: 11px;
+    color: red;
+}
+.error {
+    display: inline-block;
+}
+.errors label.error {
+    font-size: 15px;
+}
+
+.require:after {
+    content: "*";
+    color: #ff4d4d;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+    list-style-type:none;
+    padding:0;
+
+    -moz-user-select:none;
+    -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+    display:inline-block;
+
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+    font-size:1.5em; /* Change the size of the stars */
+    color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+    color:#fcca19;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+    color:#fcca19;
+}
+
+.hide-checkbox {
+    opacity:0;
+    position:absolute;
+    left:9999px;
+}
+
+label.success {
+    font-size: 11px;
+    color: #328544;
+}
+
+.user-profile #date, .user-profile #select, .user-profile #address {
+    outline: 0;
+    position: relative;
+    width: 100%;
+    height: 42px;
+}
+
+.user-profile input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.display-none {
+    display: none;
+}
+
+.text-color-red {
+    color: red;
+}
+
+.disable_a_href{
+    pointer-events: none;
+}
+
+.custom-modal-over {
+    display: none;
+}
+.custom-modal-overlay {
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.close-modal {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+    background: #7f0c0c4f;
+    color: #918b8b;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #b9a5a58c;
+    cursor: pointer;
+}
+.close-modal:hover {
+    color: #eee;
+}
+
+.bg-custom-red {
+    background-color: #ff0000;
+}
+.bg-custom-pinks {
+    background-color: #FFC0CB;
+}
+.bg-custom-yellow {
+    background-color: #FFFF00;
+}
+.bg-custom-skies {
+    background-color: #87ceeb;
+}
+.bg-custom-white {
+    background-color: #FFFFFF;
+}
+.bg-custom-green {
+    background-color: #009933;
+}
+.bg-custom-gray {
+    background-color: #808080;
+}
+.bg-custom-orange {
+    background-color: #FFA500;
+}
+.bg-custom-blue {
+    background-color: #0000FF;
+}
+.bg-custom-black {
+    background-color: #000000;
+}
+.bg-custom-purple {
+    background-color: #800080;
+}
+.bg-custom-maroon {
+    background-color: #800000;
+}
+.bg-custom-beige {
+    background-color: #F5F5DC;
+}
+
+.login-close-btn {
+    position: absolute;
+    top : 5px;
+    right : 14px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #777;
+    transition: 0.5s ease;
+}
+.login-close-btn:hover {
+    color: #222;
+}
+
+.text-color-black {
+    color: #F7931A;
+}
+
+.ajax-loader {
+    margin:15px;
+    padding:0px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+/* content placeholder animation css*/
+.skeleton-box {
+    position: relative;
+    overflow: hidden;
+    /* background-color: #e2e8f0; */
+    background-color: #F3F3F3;
+
+  }
+.skeleton-box::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      -webkit-transform: translateX(-100%);
+          -ms-transform: translateX(-100%);
+              transform: translateX(-100%);
+      background-image: -webkit-gradient(
+        linear,
+        left top, right top,
+        color-stop(0, rgba(255, 255, 255, 0)),
+        color-stop(20%, rgba(255, 255, 255, 0.2)),
+        color-stop(60%, rgba(255, 255, 255, 0.5)),
+        to(rgba(255, 255, 255, 0))
+      );
+      background-image: -o-linear-gradient(
+        left,
+        rgba(255, 255, 255, 0) 0,
+        rgba(255, 255, 255, 0.2) 20%,
+        rgba(255, 255, 255, 0.5) 60%,
+        rgba(255, 255, 255, 0)
+      );
+      background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0,
+        rgba(255, 255, 255, 0.2) 20%,
+        rgba(255, 255, 255, 0.5) 60%,
+        rgba(255, 255, 255, 0)
+      );
+      -webkit-animation: shimmer 3s infinite;
+              animation: shimmer 3s infinite;
+      content: '';
+    }
+  @-webkit-keyframes shimmer {
+    100% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+  }
+  @keyframes shimmer {
+    100% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+  }
+
+/* content placeholder animation css end*/
+
+/* content placeholder for smaller devices animation css start*/
+
+#res-loader {
+    height: 50vh;
+  }
+
+#loading-spinner, .loading-spinner {
+    display: block;
+    margin: 0 auto;
+    -webkit-animation: loading-spinner-spin 2s linear infinite;
+            animation: loading-spinner-spin 2s linear infinite;
+    will-change: transform;
+  }
+
+@-webkit-keyframes loading-spinner-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@keyframes loading-spinner-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  #loading-circle, .loading-circle {
+    stroke-dasharray: 105;
+    stroke-dashoffset: 105;
+    stroke-linecap: round;
+    -webkit-animation: loading-spinner-small 1.7s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+            animation: loading-spinner-small 1.7s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+    transform: translateZ(0);
+    transform-origin: center;
+    will-change: stroke-dashoffset;
+  }
+
+  #loading-circle-large,.loading-circle-large {
+    stroke-dasharray: 210;
+    stroke-dashoffset: 210;
+    stroke-linecap: round;
+    -webkit-animation: loading-spinner-large 1.7s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+            animation: loading-spinner-large 1.7s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+    transform: translateZ(0);
+    transform-origin: center;
+    will-change: stroke-dashoffset;
+  }
+
+  @-webkit-keyframes loading-spinner-large {
+    0% {
+      stroke-dashoffset: 190;
+      transform: scaleY(1);
+    }
+    49.99% {
+      stroke-dashoffset: 0;
+      transform: scaleY(1);
+    }
+    50% {
+      stroke-dashoffset: 0;
+      transform: scaleY(-1) rotate(25deg);
+    }
+    100% {
+      stroke-dashoffset: 190;
+      transform: scaleY(-1) rotate(-32deg);
+    }
+  }
+
+  @keyframes loading-spinner-large {
+    0% {
+      stroke-dashoffset: 190;
+      transform: scaleY(1);
+    }
+    49.99% {
+      stroke-dashoffset: 0;
+      transform: scaleY(1);
+    }
+    50% {
+      stroke-dashoffset: 0;
+      transform: scaleY(-1) rotate(25deg);
+    }
+    100% {
+      stroke-dashoffset: 190;
+      transform: scaleY(-1) rotate(-32deg);
+    }
+  }
+/* content placeholder for smaller devices animation css end*/
+
+.placeholder-loader-animation [data-placeholder]::after {
+    content: " ";
+    box-shadow: 0 0 50px 9px rgba(254,254,254);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    animation: load 1s infinite;
+}
+
+@keyframes load {
+    0%{ left: -100%}
+    100%{ left: 150%}
+}
+html[dir="rtl"] .placeholder-loader-animation [data-placeholder]::after {
+  right: -100%;
+  left: unset;
+  animation: loads 1s infinite;
+}
+@keyframes loads {
+  0%{ right: -100%}
+  100%{ right: 150%}
+}
+.compareText.compare-remove svg path{
+    fill: var(--primary-color)
+}
+
+.compare-bg.compare-remove{
+    background: var(--primary-color);
+}
+
+.star-color {
+    color: var(--primary-color);
+}
+
+.m-p-0 {
+    margin:0;
+    padding:0
+}
+
+.m-p-bt-0 {
+    margin-bottom:0;
+    padding-bottom:0
+}
+
+.m-p-top-0 {
+    margin-top:0;
+    padding-top:0
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.margin-bottom-3px{
+    margin-bottom: 3px;
+}

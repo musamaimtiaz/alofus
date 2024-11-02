@@ -1,0 +1,23 @@
+{
+    "name": "multi-vendor/shop",
+    "description": "",
+    "authors": [
+        {
+            "name": "AH Millat",
+            "email": "millat.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Shop\\": ""
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Settings": "সেটিংস",
+    "Instruction": "নির্দেশ",
+    "Status": "স্থিতি",
+    "Cash On Delivery settings updated.": "ক্যাশ অন ডেলিভারি সেটিংস আপডেট করা হয়েছে।",
+    "Cash On Delivery": "প্রদানোত্তর পরিশোধ",
+    "Are you sure?": "তুমি কি নিশ্চিত?",
+    "Confirm": "কনফার্ম",
+    "Cash on delivery is not available for this order": "এই অর্ডারের জন্য ক্যাশ অন ডেলিভারি পাওয়া যায় না",
+    "Purchase data not found.": "ক্রয় তথ্য পাওয়া যায়নি."
+}

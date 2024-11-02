@@ -1,0 +1,14 @@
+{
+    "name": "CashOnDelivery",
+    "alias": "cashondelivery",
+    "version": "1.0",
+    "gateway": true,
+    "offline" : true,
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Gateway",
+    "alias": "gateway",
+    "core": true,
+    "description": "",
+    "keywords": [],
+    "priority": 8,
+    "providers": [
+        "Modules\\Gateway\\Providers\\GatewayServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Http/helper.php"
+    ],
+    "requires": []
+}

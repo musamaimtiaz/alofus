@@ -1,0 +1,74 @@
+.card-block .dataTables_length {
+    margin-top: 0px !important;
+}
+.filter-drop-down {
+    height: 38px;
+}
+.date-drop-down {
+    height: 40px;
+    border: 1px solid #aaa;
+}
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+    .table-field
+        .table-responsive
+        .dataTables_wrapper
+        .dataTables_filter
+        input {
+        width: 296px !important;
+    }
+
+    .table-field .dataTables_processing {
+        position: relative !important;
+        left: 3% !important;
+        top: 7px;
+    }
+    .description-color-div .note-editor .note-toolbar .note-dropdown-menu {
+        min-width: 227px !important;
+    }
+    .description-color-div .dropdown-menu[x-placement="top-start"].show:before {
+        display: none;
+    }
+    .tab-content .tooltips .tooltiptexts{
+        margin-left: -98px !important;
+    }
+    .tab-content .tooltips .tooltiptexts::after{
+        display: none;
+    }
+    .download-child{
+        right: 94px;
+    }
+}
+.exportButton .dataTables_length .btn-group > .btn-group {
+    display: none !important;
+}
+.order-table-button .dataTables_length label {
+    display: flex !important;
+}
+.order-table-button .btn-group {
+    display: contents !important;
+}
+.description-color-div
+    .note-editor
+    .note-toolbar
+    .note-btn-group
+    .note-color-all
+    .note-dropdown-menu {
+    left: -25px !important;
+}
+.tooltips{
+    cursor: pointer;
+}
+.switch input[type=checkbox]:checked+.cr:before{
+    background: #FCCA19 !important;
+}
+@media only screen and (min-width: 442px) and (max-width: 1024px){
+    .table-field #dataTableBuilder_length, #dataTableBuilder_filter {
+     width: auto;
+ } 
+ .table-field .dataTables_processing {
+    position: relative !important;
+    left: 3% !important;
+    top: 7px;
+}
+ }
+ 
